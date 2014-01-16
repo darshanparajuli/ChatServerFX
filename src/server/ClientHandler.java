@@ -16,6 +16,7 @@ public class ClientHandler implements Runnable {
     private Socket mSocketOut;
 
     public ClientHandler(Socket socket) {
+        // test
         mSocketIn = socket;
         mRunning = true;
     }
